@@ -32,7 +32,7 @@ public class PoductAggregate {
                         command.getPrix(),
                         command.getQteStock(),
                         command.getEtat(),
-                        categorie)
+                        command.getCategory())
         );
     }
 
@@ -54,7 +54,7 @@ public class PoductAggregate {
                         command.getPrix(),
                         command.getQteStock(),
                         command.getEtat(),
-                        categorie)
+                        command.getCategory())
         );
     }
 
@@ -66,5 +66,4 @@ public class PoductAggregate {
         this.qteStock = event.getQteStock();
         this.etat = event.getEtat();
     }
-
 }

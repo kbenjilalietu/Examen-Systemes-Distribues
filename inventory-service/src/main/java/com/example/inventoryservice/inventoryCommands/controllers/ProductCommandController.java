@@ -31,7 +31,7 @@ public class ProductCommandController {
                 request.getNom(),
                 request.getPrix(),
                 request.getQteStock(),
-                request.getEtat()
+                request.getEtat(), request.getCategory()
         ));
     }
 
@@ -42,7 +42,7 @@ public class ProductCommandController {
                 request.getNom(),
                 request.getPrix(),
                 request.getQteStock(),
-                request.getEtat()
+                request.getEtat(), request.getCategory()
         ));
     }
 
